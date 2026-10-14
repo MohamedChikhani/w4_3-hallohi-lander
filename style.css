@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.firstlist{
+    display: flex;
+    padding: 20px;
+    gap: 10px;
+    background-color: #7272dd;
+}
+li{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 254, 254);
+    margin-left: 80px;
+}
+
+
+.dropdown {
+    position: relative;
+}
+.dropdown-menu {
+    position: absolute;
+    display: none;
+    top: 100%;
+    left: 40px;
+    background-color: #7272dd;
+    border-bottom-right-radius: 80px;
+    white-space: nowrap;
+    padding: 20px 40px;
+    
+}
+
+.dropdown-menu a {
+    display: block;
+    margin-left: 0;
+    padding-bottom: 10px;
+   
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+
+.streep1{
+    width: 20px;
+    height: 10px;
+    background-color: #7272dd;
+}
+.streep2{
+    width: 20px;
+    height: 10px;
+    background-color: #55559f;
+}
+.streep3{
+    width: 20px;
+    height: 10px;
+    background-color: #b0b0b0;
+}
+
+.strepen{
+    display: flex;
+    gap: 5px;
+    flex-direction: row;
+}
+
+
+#firstblock h1{
+    font-size: 60px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+#firstblock h1::after{
+    content: url(hallo-hi-banners-assets-folder/hi.png);
+    display: inline-block;
+    transform: translate(10px,-10px);
+    
+}
+
+.text1{
+    padding-bottom: 30px;
+    color: white;
+}
+
+#firstblock {
+    padding: 40px 100px 100px 100px;
+    background-color: black;
+}
+
+
+#secondblock {
+    padding: 40px 100px 100px 100px;
+}
+
+#secondblock h2{
+    padding-bottom: 10px;
+    
+}
+
+#thirdbutton{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+
+.img2{
+    float: right;
+    height: 360px;
+    width: 300px;
+    margin-top: -400px;
+    margin-right: -40px;
+}
+
+.img1{
+    float: right;
+    width: 20px;
+   padding-right: 202px;
+}
+
+#firstbutton{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+#secondbutton{
+    padding: 15px 20px;
+    border-radius: 10px;
+    background-color: #9000ff;
+    color: white;
+}
+footer{
+    position: fixed;
+    min-width: 100%;
+    background-color: #7272dd;
+    bottom: 0;
+}
+
+.secondlist{
+    display: flex;
+    padding: 40px 20px;
+    gap: 10px;
+    background-color: #7272dd;
+}
+
